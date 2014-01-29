@@ -1,4 +1,1 @@
-module BigCartel
-  module Sass
-  end
-end
+require 'bigcartel/sass'
