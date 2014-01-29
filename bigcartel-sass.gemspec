@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Sass variables and mixins for Big Cartel front-end development}
   spec.homepage      = "https://github.com/bigcartel/bigcartel-sass"
   spec.license       = "MIT"
+  spec.has_rdoc      = false
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
