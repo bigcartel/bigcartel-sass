@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = ""
   spec.license       = "MIT"
   spec.files         = `git ls-files`.split($/)
+  spec.require_paths = ['lib']
 
   spec.add_dependency "sass", "~> 3.1"
   spec.add_dependency "compass", "~> 0.12.2"
