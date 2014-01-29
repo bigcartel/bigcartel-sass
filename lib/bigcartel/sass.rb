@@ -1,4 +1,5 @@
 require "bigcartel/sass/version"
+require "compass-rails"
 
 module Bigcartel
   module Sass
