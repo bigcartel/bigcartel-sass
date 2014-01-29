@@ -14,9 +14,9 @@ And then execute:
 
 ## Usage
 
-* [Variables]()
-* [Mixins]()
-* [Placeholder Selectors]()
-* [Animations]()
+* [Variables](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/_variables.css.sass)
+* [Mixins](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/_mixins.css.sass)
+* [Placeholder Selectors](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/_placeholders.css.sass)
+* [Animations](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/_animations.css.sass)
 
 
