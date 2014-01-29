@@ -2,6 +2,7 @@ require "bigcartel/sass/version"
 
 module Bigcartel
   module Sass
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
