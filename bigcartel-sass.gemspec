@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["blake@markupboy.com"]
   spec.description   = %q{Sass variables and mixins for Big Cartel front-end development}
   spec.summary       = %q{Sass variables and mixins for Big Cartel front-end development}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/bigcartel/bigcartel-sass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
