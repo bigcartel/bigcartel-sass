@@ -1,4 +1,4 @@
-Copyright (c) 2014 Blake Walters
+Copyright (c) 2014 Big Cartel, LLC
 
 MIT License
 
