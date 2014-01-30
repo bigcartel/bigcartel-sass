@@ -1,4 +1,4 @@
-# Bigcartel::Sass
+# bigcartel-sass
 
 A standard set of variables, mixins, animations, and placeholder selectors to use across all of Big Cartel's front-end development.
 
@@ -11,6 +11,10 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
+    
+Once installed, reference the library in your sass:
+
+    @import 'bigcartel-sass'
 
 ## Usage
 
