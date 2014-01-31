@@ -51,21 +51,6 @@
   -moz-animation: $value
   animation: $value
 
-
-// name: webfont
-// description: shortcut mixin for font-face font with files sharing a base name and having all necessary webfont file types (woff, ttf, svg and eot)
-// params:
-//   name - the name to set the font-face font to
-//   filebase - the base name of the fonts to use
-//   weight - the weight to apply to the font-face font
-//   style - the style to apply to the font-fact font
-// usage:
-//     +webfont("Maquette-Light", 'arsmaquettepro-light-webfont', light, normal)
-
-=webfont($name, $filebase, $weight, $style)
-  +font-face("#{$name}", inline-font-files("#{$filebase}.woff", woff, "#{$filebase}.ttf", ttf, "#{$filebase}.svg", svg), "#{$filebase}.eot", $weight, $style)
-
-
 // name: appearance
 // description: browser prefixes for appearnce property
 // params:
