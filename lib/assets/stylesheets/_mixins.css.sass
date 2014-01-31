@@ -1,32 +1,32 @@
-/*
-  name: placeholder
-  description: style input placeholder text
-  params:
-    content
-  usage:
-      +placeholder
-        color: #fff
-        font-style: italic
-*/
+// name: placeholder
+// description: style input placeholder text
+// params:
+//   content
+// usage:
+//     +placeholder
+//       color: #fff
+//       font-style: italic
+
 =placeholder
   &:-moz-placeholder
     @content
   &::-webkit-input-placeholder
     @content
 
-/*
-  name: keyframes
-  description: sets up a name keyframes-based animation
-  params:
-    name - the name of your keyframes block
-    content
-  usage:
-      +keyframes(spin)
-        0%
-          +rotate(0deg)
-        100%
-          +rotate(360deg)
-*/
+
+
+// name: keyframes
+// description: sets up a name keyframes-based animation
+// params:
+//   name - the name of your keyframes block
+//   content
+// usage:
+//     +keyframes(spin)
+//       0%
+//         +rotate(0deg)
+//       100%
+//         +rotate(360deg)
+
 =keyframes($name)
   @-webkit-keyframes #{$name}
     @content
@@ -37,42 +37,42 @@
   @keyframes #{$name}
     @content
 
-/*
-  name: animation
-  description: browser prefixes for animation property
-  params:
-    value - the full value to be set to the animation property
-  usage:
-      +animation(spin linear 1.5s infinite)
-*/
+
+
+// name: animation
+// description: browser prefixes for animation property
+// params:
+//   value - the full value to be set to the animation property
+// usage:
+//     +animation(spin linear 1.5s infinite)
+
 =animation($value)
   -webkit-animation: $value
   -moz-animation: $value
   animation: $value
 
-/*
-  name: webfont
-  description: shortcut mixin for font-face font with files sharing a base name and having all necessary webfont file types (woff, ttf, svg and eot)
-  params:
-    name - the name to set the font-face font to
-    filebase - the base name of the fonts to use
-    weight - the weight to apply to the font-face font
-    style - the style to apply to the font-fact font
-  usage:
-      +webfont("Maquette-Light", 'arsmaquettepro-light-webfont', light, normal)
-*/
+
+// name: webfont
+// description: shortcut mixin for font-face font with files sharing a base name and having all necessary webfont file types (woff, ttf, svg and eot)
+// params:
+//   name - the name to set the font-face font to
+//   filebase - the base name of the fonts to use
+//   weight - the weight to apply to the font-face font
+//   style - the style to apply to the font-fact font
+// usage:
+//     +webfont("Maquette-Light", 'arsmaquettepro-light-webfont', light, normal)
+
 =webfont($name, $filebase, $weight, $style)
   +font-face("#{$name}", inline-font-files("#{$filebase}.woff", woff, "#{$filebase}.ttf", ttf, "#{$filebase}.svg", svg), "#{$filebase}.eot", $weight, $style)
 
 
-/*
-  name: appearance
-  description: browser prefixes for appearnce property
-  params:
-    value - the full value to be set to the appearance property
-  usage:
-      +appearance(none)
-*/
+// name: appearance
+// description: browser prefixes for appearnce property
+// params:
+//   value - the full value to be set to the appearance property
+// usage:
+//     +appearance(none)
+
 =appearance($value)
   -moz-appearance: $value
   -o-appearance: $value

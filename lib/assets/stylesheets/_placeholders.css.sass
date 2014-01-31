@@ -1,9 +1,8 @@
-/*
-  name: clearfix
-  description: standard generated content clearfix
-  usage:
-      @extend %clearfix
-*/
+// name: clearfix
+// description: standard generated content clearfix
+// usage:
+//     @extend %clearfix
+
 %clearfix
   zoom: 1
   &:after
@@ -13,35 +12,33 @@
     clear: both
     content: "."
 
-/*
-  name: hide
-  description: position an element out of the visible area without displaying none or setting visibility to hidden
-  usage:
-      @extend %hide
-*/
+
+// name: hide
+// description: position an element out of the visible area without displaying none or setting visibility to hidden
+// usage:
+//     @extend %hide
+
 %hide
   position: absolute
   left: -9999px
   top: -9999px
 
 
-/*
-  name: center-block
-  description: set an element to block level and center it using margins
-  usage:
-      @extend %center-block
-*/
+// name: center-block
+// description: set an element to block level and center it using margins
+// usage:
+//     @extend %center-block
+
 %center-block
   display: block
   margin: 0 auto
 
 
-/*
-  name: vertical-align-parent
-  description: vertically align an element to it's parent container (based on http://css-tricks.com/centering-in-the-unknown/)
-  usage:
-      @extend %vertical-align-parent
-*/
+// name: vertical-align-parent
+// description: vertically align an element to it's parent container (based on http://css-tricks.com/centering-in-the-unknown/)
+// usage:
+//     @extend %vertical-align-parent
+
 %vertical-align-parent
   &:before
     content: ''
