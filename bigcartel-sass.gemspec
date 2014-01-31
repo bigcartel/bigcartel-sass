@@ -6,8 +6,8 @@ require 'bigcartel/sass/version'
 Gem::Specification.new do |spec|
   spec.name          = "bigcartel-sass"
   spec.version       = Bigcartel::Sass::VERSION
-  spec.authors       = ["Blake Walters"]
-  spec.email         = ["blake@markupboy.com"]
+  spec.authors       = ["Big Cartel"]
+  spec.email         = ["dev@bigcartel.com"]
   spec.description   = %q{Sass variables and mixins for Big Cartel front-end development}
   spec.summary       = %q{Sass variables and mixins for Big Cartel front-end development}
   spec.homepage      = "https://github.com/bigcartel/bigcartel-sass"
