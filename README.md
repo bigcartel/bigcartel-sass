@@ -26,8 +26,8 @@ If you'd like to only include certain aspects of the library, you can import the
 
 ## Usage
 
-* [Variables](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/bigcartel/_variables.css.sass)
-* [Mixins](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/bigcartel/_mixins.css.sass)
-* [Placeholder Selectors](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/bigcartel/_placeholders.css.sass)
+* [Variables](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/bigcartel/_variables.sass)
+* [Mixins](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/bigcartel/_mixins.sass)
+* [Placeholder Selectors](https://github.com/bigcartel/bigcartel-sass/blob/master/lib/assets/stylesheets/bigcartel/_placeholders.sass)
 
 
