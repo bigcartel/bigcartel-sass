@@ -5,9 +5,7 @@ class SassTest < MiniTest::Unit::TestCase
     path = 'lib/assets/stylesheets'
     %w(bigcartel).each do |file|
       engine = Sass::Engine.for_file("#{path}/#{file}.css.sass", syntax: :sass, load_paths: [path])
-      assert_nothing_raised do
-        engine.render
-      end
+      engine.render
     end
   end
 end
