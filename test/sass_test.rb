@@ -1,6 +1,6 @@
 require File.expand_path('test_helper.rb', File.dirname(__FILE__))
 
-class CompilationTest < Test::Unit::TestCase
+class SassTest < MiniTest::Unit::TestCase
   def test_compilation
     path = 'lib/assets/stylesheets'
     %w(bigcartel).each do |file|
