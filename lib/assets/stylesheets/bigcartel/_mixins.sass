@@ -63,3 +63,45 @@
   -o-appearance: $value
   -webkit-appearance: $value
   appearance: $value
+
+
+// name: flexbox
+// description: browser prefixes for flexbox display
+// usage:
+//    +flexbox
+
+=flexbox
+  display: -webkit-box
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flexbox
+  display: flex
+
+
+// name: flex-grow
+// description: browser prefixes for flex grow property display
+// params:
+//    int: the flex grow size integer
+// usage:
+//    +flex-grow(2)
+
+=flex-grow($int: 0)
+  -webkit-box-flex: $int
+  -webkit-flex-grow: $int
+  -moz-flex-grow: $int
+  -ms-flex-positive: $int
+  flex-grow: $int
+
+
+// name: flex-shrink
+// description: browser prefixes for flex shrink property display
+// params:
+//    int: the flex shrink size integer
+// usage:
+//    +flex-shrink(2)
+
+=flex-shrink($int: 1)
+  -webkit-flex-shrink: $int
+  -moz-flex-shrink: $int
+  -ms-flex-negative: $int
+  flex-shrink: $int
