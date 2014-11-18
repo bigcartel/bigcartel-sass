@@ -1,6 +1,4 @@
-# bigcartel-sass
-
-[![Build Status](https://travis-ci.org/bigcartel/bigcartel-sass.svg?branch=master)](https://travis-ci.org/bigcartel/bigcartel-sass)
+# bigcartel-sass [![Build Status](https://travis-ci.org/bigcartel/bigcartel-sass.svg?branch=master)](https://travis-ci.org/bigcartel/bigcartel-sass)
 
 A standard set of variables, mixins, animations, and placeholder selectors to use across all of Big Cartel's front-end development.
 
