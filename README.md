@@ -8,7 +8,7 @@ A standard set of variables, mixins, animations, and placeholder selectors to us
 
 Add this line to your application's Gemfile:
 
-    gem 'bigcartel-sass', :git => 'git@github.com:bigcartel/bigcartel-sass.git'
+    gem 'bigcartel-sass', github: 'bigcartel/bigcartel-sass'
 
 And then execute:
 
