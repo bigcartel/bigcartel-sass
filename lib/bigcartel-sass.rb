@@ -4,7 +4,7 @@ module Bigcartel
 
       def load!
         if rails?
-          require 'sass-rails'
+          require 'sassc-rails'
           register_rails_engine
         end
 
@@ -34,8 +34,10 @@ module Bigcartel
       private
 
       def configure_sass
-        ::Sass.load_paths << stylesheets_path
-        ::Sass.load_paths << stylesheets_sub_path
+        ActiveSupport.on_load(:after_initialize, yield: true) do
+          ::Rails.configuration.sass.load_paths << stylesheets_path
+          ::Rails.configuration.sass.load_paths << stylesheets_sub_path
+        end
       end
 
       def register_rails_engine
